@@ -31,28 +31,3 @@ ENV/
 # =========================================================
 .DS_Store
 Thumbs.db
-
-# =========================================================
-# Raw / interim data
-# =========================================================
-data/raw/
-data/interim/
-
-# =========================================================
-# Ignore old audit / legacy generated outputs
-# =========================================================
-data/processed/news/
-data/processed/article_level_daily/
-
-# =========================================================
-# Keep final processed artifacts used in the current baseline
-# =========================================================
-!data/processed/wti_daily_panel.parquet
-!data/processed/model_dataset_v1.parquet
-!data/processed/news_daily_panel_v2.csv
-!data/processed/news_daily_panel_v2.parquet
-
-# =========================================================
-# Optional future outputs
-# =========================================================
-# !data/processed/another_final_file.parquet
