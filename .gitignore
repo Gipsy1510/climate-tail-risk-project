@@ -31,3 +31,6 @@ ENV/
 # =========================================================
 .DS_Store
 Thumbs.dbgit 
+# Large cleaned datasets kept locally
+data/clean_datasets/cleaned_articles_full.csv
+data/clean_datasets/cleaned_articles_english.csv
